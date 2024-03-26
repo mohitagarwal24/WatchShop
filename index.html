@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4a1267db90.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="container1">
+      <h1 id="WebsiteLogo">Watch Shop</h1>
+      <div style="justify-self: flex-end;" class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <div class="dropdown">
+                <button class="dropbtn">Watches &#x25BC</button>
+                <div class="dropdown-content">
+                  <a href="#mens-watches">Men's Watches</a>
+                  <a href="#womens-watches">Women's Watches</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main style="position: relative;">
+  <section id="mens-watches" class="watches">
+    <h2 >Men's Watches</h2>
+    <div class="container2">
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/81DNqgUkQLL._SX679_.jpg" alt="Watch 1">
+        <h3>Carlington</h3>
+        <p style="text-align: justify;">Carlington Analog Watch for Men Stainless Steel Dial with Date and Leather Band Wrist Watch</p>
+        <button class="modal-btn" data-modal-target="#watch1-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/71m-kRT4unL._SX679_.jpg" alt="Watch 2">
+        <h3>Fastrack</h3>
+        <p style="text-align: justify;">Fastrack Analog Black Dial Men's Casual Watch</p>
+        <button class="modal-btn" data-modal-target="#watch2-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img style="width: 10rem;" src="https://m.media-amazon.com/images/I/718XDEWTPIL._SY879_.jpg" alt="Watch 3">
+        <h3>Fastrack</h3>
+        <p style="text-align: justify;">Redux Analog Blue-Grey Dial Men's Casual Watch</p>
+        <button class="modal-btn" data-modal-target="#watch3-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/61UHxTNk-7L._SX679_.jpg" alt="Watch 4">
+        <h3>NIBOSI</h3>
+        <p style="text-align: justify;">NIBOSI Men's Watch Analog Quartz Black Dial Wrist Watch for Men</p>
+        <button class="modal-btn" data-modal-target="#watch4-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/61voZCG7hnL._SX679_.jpg" alt="Watch 5">
+        <h3>Fastrack</h3>
+        <p style="text-align: justify;">SKMEI Men's Watch New Wheels Rolling Creative Fashion Che Youhui League Fans Butterfly Double Snap Gift Wristwatch</p>
+        <button class="modal-btn" data-modal-target="#watch5-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/61GeqMe3NZL._SX679_.jpg" alt="Watch 6">
+        <h3>TIMEX</h3>
+        <p style="text-align: justify;">TIMEX Men Leather Automatic Analog Black Dial Smart Watch</p>
+        <button class="modal-btn" data-modal-target="#watch6-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img style="width: 8rem;" src="https://m.media-amazon.com/images/I/81cD4xqlg2L._SY879_.jpg" alt="Watch 7">
+        <h3>LONGBO</h3>
+        <p style="text-align: justify;">LONGBO Analog Business Casual Stainless Steel Decorative Subdials Watch for Men</p>
+        <button class="modal-btn" data-modal-target="#watch7-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/41gBhLWS0EL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 8">
+        <h3>Noise</h3>
+        <p style="text-align: justify;">Noise Pulse 2 Max 1.85" Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men</p>
+        <button class="modal-btn" data-modal-target="#watch8-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/51vHAEYKeWL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 9">
+        <h3>Fire-Boltt</h3>
+        <p style="text-align: justify;">Fire-Boltt Gladiator 1.96" Biggest Display Smart Watch with Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique UI Interactions, SpO2, 24/7 Heart Rate Tracking</p>
+        <button class="modal-btn" data-modal-target="#watch9-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img style="width: 9rem;" src="https://m.media-amazon.com/images/I/81CwsCvUWqL._SY879_.jpg" alt="Watch 10">
+        <h3>Timewear</h3>
+        <p style="text-align: justify;">TIMEWEAR Analog Slim Two Hands Leather Strap Watches for Men</p>
+        <button class="modal-btn" data-modal-target="#watch10-modal">View Details</button>
+      </div>
+      <!-- Add more watch cards as needed -->
+    </div>
+  </section>
+
+  <section id="womens-watches" class="watches">
+    <h2 >Women's Watches</h2>
+    <div class="container2">
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/51w6VCsZ6GL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 11">
+        <h3>Fire-Boltt</h3>
+        <p style="text-align: justify;">Fire-Boltt Phoenix Ultra Luxury Stainless Steel, Bluetooth Calling Smartwatch, AI Voice Assistant, Metal Body with 120+ Sports Modes, SpO2, Heart Rate Monitoring</p>
+        <button class="modal-btn" data-modal-target="#watch11-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/51LTJjshaIL._SX679_.jpg" alt="Watch 12">
+        <h3>Imperious</h3>
+        <p style="text-align: justify;">Fire-Boltt Phoenix Ultra Luxury Stainless Steel, Bluetooth Calling Smartwatch, AI Voice Assistant, Metal Body with 120+ Sports Modes, SpO2, Heart Rate Monitoring</p>
+        <button class="modal-btn" data-modal-target="#watch12-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/411uXQO0jCL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 13">
+        <h3>Fastrack</h3>
+        <p style="text-align: justify;">Fastrack Vyb Quartz Analog Lilac Dial Stainless Steel Strap Watch for Women-FV60010QM01W</p>
+        <button class="modal-btn" data-modal-target="#watch13-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/61BkvqJ28NL._SX679_.jpg" alt="Watch 14">
+        <h3>NIBOSI</h3>
+        <p style="text-align: justify;">NIBOSI Women Watches Analogue Wrist Watches Watches for Women's & Girls&Miss&Ladies Rose Gold Dial Watch with Stylish Diamond Studded Watches</p>
+        <button class="modal-btn" data-modal-target="#watch14-modal">View Details</button>
+      </div>
+      <div class="watch">
+        <img src="https://m.media-amazon.com/images/I/61cgStrjWrL._SX679_.jpg" alt="Watch 11">
+        <h3>Sonata</h3>
+        <p style="text-align: justify;">Sonata Poze Quartz Analog Pink Dial Metal Strap Watch for Women</p>
+        <button class="modal-btn" data-modal-target="#watch15-modal">View Details</button>
+      </div>
+      
+      <!-- Add more watch cards as needed -->
+    </div>
+  </section>
+
+  <section id="about">
+    <div>
+      <h2 style="text-align: center; font-size: 44px;">About Us</h2>
+      <div class="aboutcontent">
+        <p>
+            At Watch Shop, we are passionate about timepieces that reflect style, precision, and craftsmanship. With a dedication to offering only the finest watches, we curate a collection that embodies elegance and sophistication.
+        </p>
+
+        <p> 
+            Our journey began with a simple vision: to provide watch enthusiasts with access to exceptional timepieces that elevate every moment. From classic designs to modern innovations, we embrace the artistry of watchmaking while staying attuned to the ever-evolving tastes of our discerning clientele.
+        </p>
+
+        <p>
+            Driven by our commitment to quality and excellence, we collaborate with renowned brands and independent artisans alike, ensuring each watch in our collection meets the highest standards of performance and aesthetics.
+        </p>
+        
+        <p>
+            Beyond our curated selection, we pride ourselves on delivering an unparalleled shopping experience. With a focus on personalized service and attention to detail, we strive to exceed expectations at every turn.
+        </p>   
+        
+        
+        <p>
+            Join us as we celebrate the timeless allure of watches and embark on a journey where each tick of the clock tells a story of elegance, sophistication, and enduring style.
+        </p>
+        
+        <p>
+            Welcome to Watch Shop, where time is not just measured, but cherished.
+        </p>
+        
+        </p>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+    <div class="container">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Email: watchshop@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Main Street, City, Country</p>
+      </div>
+      <div class="social-links">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <!-- Add more social media icons as needed -->
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+
+<div class="modal" id="watch1-modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div class="watchimagemodal">
+        <img src="https://m.media-amazon.com/images/I/81DNqgUkQLL._SX679_.jpg" alt="Watch 1">
+        <h2>Carlington</h2>
+    </div>
+    <div class="aboutwatch">
+        <h2>More About this watch...</h2>
+        <ul>
+            <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+           <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+            <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+            <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+           <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+        </ul>
+    </div>
+  </div>
+</div>
+<div class="modal" id="watch2-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/71m-kRT4unL._SX679_.jpg" alt="Watch 1">
+          <h2>Fastrack</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+</div>
+  <div class="modal" id="watch3-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/718XDEWTPIL._SY879_.jpg" alt="Watch 3">
+          <h2>Redux</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="watch4-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img style="width: 10rem;" src="https://m.media-amazon.com/images/I/61UHxTNk-7L._SX679_.jpg" alt="Watch 4">
+          <h2>NIBOSI</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="watch5-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/61voZCG7hnL._SX679_.jpg" alt="Watch 5">
+          <h2>SKMEI</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch6-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/61GeqMe3NZL._SX679_.jpg" alt="Watch 1">
+          <h2>TIMEX</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch7-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img style="width: 8rem; margin-right: 16px;" src="https://m.media-amazon.com/images/I/81cD4xqlg2L._SY879_.jpg" alt="Watch 7">
+          <h2>LONGBO</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch8-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/41gBhLWS0EL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 8">
+          <h2>Noise</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch9-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/51vHAEYKeWL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 9">
+          <h2>Fire-Boltt</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch10-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img style="width: 9rem;" src="https://m.media-amazon.com/images/I/81CwsCvUWqL._SY879_.jpg" alt="Watch 1">
+          <h2>Timewear</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch11-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/51w6VCsZ6GL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 11">
+          <h2>Fire-Boltt</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch12-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/51LTJjshaIL._SX679_.jpg" alt="Watch 12">
+          <h2>Imperious</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="watch13-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/411uXQO0jCL._SX300_SY300_QL70_FMwebp_.jpg" alt="Watch 13">
+          <h2>Fastrack</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="watch14-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/61BkvqJ28NL._SX679_.jpg" alt="Watch 14">
+          <h2>NIBOSI</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal" id="watch15-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="watchimagemodal">
+          <img src="https://m.media-amazon.com/images/I/61cgStrjWrL._SX679_.jpg" alt="Watch 15">
+          <h2>Sonata</h2>
+      </div>
+      <div class="aboutwatch">
+          <h2>More About this watch...</h2>
+          <ul>
+              <li>DESIGN - This men's analog watch boasts a captivating design that exudes timeless style. Its simple yet sophisticated design ensures it remains a fashionable accessory for years to come. Embodying a never-ending quest for classic elegance, this watch is the perfect blend of contemporary and enduring fashion.</li>
+             <li> FEATURES - With a 46 mm dial width and a 14 mm strap width, this watch strikes the perfect balance between comfort and style. The 0.4 cm round dial is protected by a hardened scratch-resistant design, ensuring durability and longevity. Crafted with an acrylic case material, this watch showcases a reliable 3-hand analog quartz movement and a secure closure, offering both precision and convenience</li>
+              <li>STYLISH - Updated with modern stick indexes markers and complemented by premium leather strap, this men's watch exudes unparalleled style and sophistication. The stainless steel accents further enhance its overall appeal, creating a seamless blend of timeless charm and contemporary design. This model not only showcases accurate timekeeping but also serves as a durable and fashionable accessory for the modern man.</li>
+              <li>CARE INSTRUCTIONS - To maintain the pristine condition of your watch, simply wipe it with a soft cloth after every use. Store it in a flat box or a dedicated watch case to prevent accidental scratches. Keep the watch away from direct heat and exposure to strong reactive chemicals, ensuring its longevity and preserving its aesthetic appeal.</li>
+             <li> WARRANTY - Enjoy peace of mind with a 1-year warranty from the date of purchase. This warranty covers manufacturing defects, providing you with confidence in the quality and craftsmanship of your timepiece.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
